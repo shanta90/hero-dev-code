@@ -9,7 +9,7 @@
   font-optical-sizing: auto;
 }
 .logo h2 {
-    font-size:45px;
+    font-size:40px;
     font-weight: bolder;
 }
 .color-orange {
@@ -24,6 +24,10 @@
     font-weight: bolder;
     color: white;
     cursor: pointer;
+}
+.btn:hover{
+    color: aqua;
+    background-color: #474747;
 }
 .section-heading {
     max-width: 827px;
@@ -78,11 +82,10 @@ nav .menu a {
     gap:20px;
 }
 #banner .banner-content {
-    max-width: 585px;
-    width: 100%;
+ width: 70%;
 }
 #banner .banner-content h2 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 600px;
     color: #474747;
 }
@@ -99,8 +102,11 @@ nav .menu a {
     margin-bottom: 30px;
 }
 #banner .banner-image {
-    max-width: 485px;
+    width: 80%;
     vertical-align: middle;
+    /* margin-bottom: 0px;
+    padding-bottom: 0px; */
+
 
 }
 #about {
@@ -134,7 +140,7 @@ nav .menu a {
     text-align: center;
 }
 #skills .skills-container {
-    width:71%
+    width:100%
 
 }
 #skills .skills-container .skills-box {
