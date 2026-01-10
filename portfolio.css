@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html,body {
+    overflow-x: hidden;
+}
  /* shared style */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -30,7 +33,7 @@
     background-color: #474747;
 }
 .section-heading {
-    max-width: 827px;
+    width: 100%;
     text-align:center;
     margin: 0px auto;
 
@@ -53,7 +56,6 @@ header{
 }
 nav {
    width: 100%;
-   max-width: 1140px;
    /* border: 1px solid red; */
     margin:0px auto;
     display: flex;
@@ -82,7 +84,7 @@ nav .menu a {
     gap:20px;
 }
 #banner .banner-content {
- width: 70%;
+ width: 80%;
 }
 #banner .banner-content h2 {
     font-size: 35px;
@@ -102,7 +104,7 @@ nav .menu a {
     margin-bottom: 30px;
 }
 #banner .banner-image {
-    width: 80%;
+    width: 100%;
     vertical-align: middle;
     /* margin-bottom: 0px;
     padding-bottom: 0px; */
@@ -113,7 +115,7 @@ nav .menu a {
     padding-top: 130px;
 }
 #about .about-container {
-     width: 71%;
+     width: 100%;
     max-width: 1140px;
     margin: 0px auto;
     text-align: center;
@@ -148,14 +150,21 @@ nav .menu a {
     gap: 24px;
 }
 .skills-box .skills-card {
-    padding: 30px;
-    /* border: 1px solid red; */
-    box-shadow: 0px 6px 50px #0000005a;
-    max-width: 267px;
+    padding: 30px
+    box-shadow: 0px 6px 50px 
+    text-align: center;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius:4px
+    gap:10px
+    margin-left:px;
+    /* padding: 0px auto;
+    margin: 0px auto; */
 }
 .skills-card img {
-   max-width: 44px;
-   margin-bottom: 30px;
+margin: 30px;
+border: 2px solid #757575;
+border-radius: 4px;
  
 }
 .skills-card h3 {
